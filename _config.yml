@@ -5,11 +5,10 @@ url                          : "http://peer-workshop.github.io" # the base hostn
 # url                          : 127.0.0.1
 
 blog:
-  title                      : PEER Workshop
-  description                : Workshop on Processing and Evaluating Event Representations
+  title                      : LLM safety Workshop
 
 # Layout configuration
-  logo_path                  : "assets/img/peer-logo.png" # path to logo file
+  logo_path                  : "assets/img/llm-logo.png" # path to logo file
   search_path                : # needed for searchbox in archive page
   hero_layout                : false # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -24,7 +23,7 @@ blog:
 
 # Author info
 author:
-  fullname                  : PEER
+  fullname                  : llmworshop
   rss                       : false # generate RSS feed and show it's icon in header
   mail                      : facts.lab@rochester.edu # change to your e-mail address
   #twitter                   : 
@@ -33,8 +32,8 @@ author:
   #stackoverflow             : stackoverflow-user-name
   #disqus                    :  # your disqus site name
   #google_analytics          : 'UA-113465669-1'
-  photo                     : "assets/img/peer-logo.png"
-  photo2x                   : "assets/img/peer-logo.png"
+  photo                     : "assets/img/llm-logo.png"
+  photo2x                   : "assets/img/llm-logo.png"
 
 
 
