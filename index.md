@@ -14,79 +14,37 @@ images: assets/img/peer2024/
     srcset="{{ site.author.photo2x | relative_url }} 2x"
 />
 
-The **Third Workshop on Processing and Evaluating Event Representations (PEER2024)** will be held on **March 29, 2024** at Cornell University. The workshop aims to bring together researchers working on computational models of incremental language understanding with researchers working on event semantics from both a computational and experimental perspective. Presentations will focus on a variety of questions in this domain: (a) what symbolic and continuous representations of linguistic meanings are necessary for capturing different aspects of linguistic meaning?; (b)  how do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?; and (c) how might the psycholinguistically valid representations be deployed during incremental language processing? Special focus is placed on meaning representations that take the concept of an event as a core organizing principle.
+In the rapidly evolving landscape of artificial intelligence, the development and deployment of large models have ushered in a new era of innovation and possibilities. However, with great power comes great responsibility, necessitating a deep dive into the safety and ethical considerations surrounding these advanced technologies. To address these critical issues, we are excited to announce a comprehensive workshop focused on Large Model Safety, designed for professionals, researchers, and enthusiasts in the field of AI. This workshop aims to shed light on the myriad challenges and opportunities presented by large models, fostering a robust dialogue on novel attacks, risk mitigation strategies, and ethical guidelines to ensure their beneficial and secure application across various domains.
 
-The workshop is sponsored by the [Central New York Humanities Corridor](https://www.cnycorridor.net/). Its broader goals are to build collaborations among researchers in Western and Central New York and to provide a platform for giving feedback to student researchers.
+This engaging workshop will feature a series of expert talks on the complex landscape of large model safety. From understanding the technical intricacies of large model development to exploring the societal impacts of AI safety, attendees will gain insights into the multifaceted aspects of large model safety. Whether you’re a seasoned AI practitioner or new to the field, this workshop promises to offer valuable perspectives on fostering innovation while prioritizing safety, ethics, and accountability in the age of transformative AI technologies.
 
-## Keynote Speakers
+## Organization Committee
+Jun SUN, Professor at School of Information and Computing Systems, Singapore Management University
 
-{% for person in site.data.peer2024.people %}
-{% assign personinfo = person[1] %}
-{% if personinfo.role == "keynote" %}
-<center>
-<a href="{{ personinfo.website }}"><img class="people" alt="{{ personinfo.name }}" src="{{ page.images | relative_url }}{{ personinfo.image }}" srcset="{{ page.images | relative_url }}{{ personinfo.image }}" /></a>
-</center>  
-<center><b>{{ personinfo.name }}</b></center>
-<center><i>{{ personinfo.department }}</i></center>
-<center><i>{{ personinfo.university }}</i></center>
-<!-- {{ personinfo.description }} -->
-{% endif %}    
-{% endfor %}
+Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s AI Technical Committee)
 
-## Location
+## Program (under construction)
+*9:00 – 9:45:* Talk 1
 
-The workshop will be located at [Cornell University's Herbert F Johnson Museum of Art](https://museum.cornell.edu/) ([Directions](https://maps.app.goo.gl/ztrTsHKZvDcyvbQB6)). Virtual talks will be broadcast via zoom to in-person participants. 
+*9:45 – 10:30:* Talk 2
 
-Participation via zoom is by invitation only. Requests for a virtual participation invitation can be made using the registration link below.  
+*10:30 – 11:00:* Coffee Break
 
-## Registration
+*11:00 – 11:45:* Talk 3
 
-There is no cost for participation in the workshop, but if you plan to attend, we ask that you register [here](https://forms.gle/582nV71mjB6cc9u17) by March 1. 
+*11:45 – 12:30:* Talk 4
 
-## Schedule
+*12:30 – 2:00* Lunch
 
-# TBD
-{% comment %}
-<table>
-<tr>
-<th>Time</th>
-<th>Event</th>
-<th>Presenter</th>
-</tr>
-{% for event in site.data.peer2024.schedule %}
-{% if event.type == "break" %}
-<tr>
-    <td>{{ event.time }}</td>
-    <td>{{ event.title }}</td>
-    <td></td>
-</tr>
-{% else %}
-{% assign presentationinfo = site.data.peer2024.presentations[event.presentation] %}
-{% assign personinfo = site.data.peer2024.people[presentationinfo.presenter] %}
+*2:00 – 2:45:* Talk 5
 
-<tr>
-    <td>{{ event.time }}</td>
-    <td><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">{{ presentationinfo.title }}</a></td>
-    <td><a href="{{ personinfo.website }}">{{ personinfo.name }}</a></td>
-</tr>
-{% endif %}
-{% endfor %}
-</table>
-{% endcomment%}
+*2:45 – 3:30* Talk 6
 
-## Organizers
+*3:30 – 4:00:* Coffee Break
 
-{% for person in site.data.peer2024.people %}
-{% assign personinfo = person[1] %}
-{% if personinfo.role == "organizer" %}
-<center>
-<a href="{{ personinfo.website }}"><img class="people" alt="{{ personinfo.name }}" src="{{ page.images | relative_url }}{{ personinfo.image }}" srcset="{{ page.images | relative_url }}{{ personinfo.image }}" /></a>
-</center>  
-<center><b>{{ personinfo.name }}</b></center>
-<center><i>{{ personinfo.department }}</i></center>
-<center><i>{{ personinfo.university }}</i></center>
-<!-- {{ personinfo.description }} -->
-{% endif %}    
-{% endfor %}
+*4:00 – 4:45:* Talk 7
 
-</div>
+*4:45 – 5:30:* Talk 8
+
+*6:00 – 8:00:* Dinner
+
