@@ -24,6 +24,13 @@ Jun SUN, Professor at School of Information and Computing Systems, Singapore Man
 
 Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s AI Technical Committee)
 
+## Date
+*July 1, 2024*
+
+## Venue
+This workshop will be a part of AsiaCCS’2024, which will take place in PARKROYAL on Beach Road Hotel.
+
+
 ## Program (under construction)
 *9:00 – 9:45:* Talk 1
 
