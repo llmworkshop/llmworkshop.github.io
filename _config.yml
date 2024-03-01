@@ -1,7 +1,7 @@
 # Base blog settings
 baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "http://peer-workshop.github.io" # the base hostname & protocol for your site
+url                          : "https://llmworkshop.github.io/ # the base hostname & protocol for your site
 # url                          : 127.0.0.1
 
 blog:
@@ -27,7 +27,7 @@ author:
   rss                       : false # generate RSS feed and show it's icon in header
   mail                      : facts.lab@rochester.edu # change to your e-mail address
   #twitter                   : 
-  github                    : peer-workshop
+  github                    :  llmworkshop.github.io/
   #youtube                   : youtube-user-name
   #stackoverflow             : stackoverflow-user-name
   #disqus                    :  # your disqus site name
