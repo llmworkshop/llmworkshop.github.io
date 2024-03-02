@@ -1,8 +1,8 @@
 # Base blog settings
 baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "https://llmworkshop.github.io/ # the base hostname & protocol for your site
-# url                          : 127.0.0.1
+url                          : "https://llmworkshop.github.io/" # the base hostname & protocol for your site
+url                          : 127.0.0.1
 
 blog:
   title                      : LLM safety Workshop
