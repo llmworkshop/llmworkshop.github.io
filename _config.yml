@@ -25,7 +25,7 @@ blog:
 author:
   fullname                  : llmworshop
   rss                       : false # generate RSS feed and show it's icon in header
-  mail                      : facts.lab@rochester.edu # change to your e-mail address
+  mail                      : wzhao@smu.edu.sg # change to your e-mail address
   #twitter                   : 
   github                    :  llmworkshop.github.io/
   #youtube                   : youtube-user-name
