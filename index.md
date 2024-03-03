@@ -28,7 +28,7 @@ Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s 
 *July 1, 2024*
 
 ## Venue
-This workshop will be a part of AsiaCCS’2024, which will take place in [PARKROYAL on Beach Road Hotel](https://parkroyalonbeachroad.sg-singapore.com/).
+This workshop will be a part of [AsiaCCS’2024](https://asiaccs2024.sutd.edu.sg/), which will take place in [PARKROYAL on Beach Road Hotel](https://parkroyalonbeachroad.sg-singapore.com/).
 
 
 ## Program (under construction)
