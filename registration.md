@@ -3,6 +3,12 @@ layout: page
 title: Registration
 published: true
 ---
+
+
+# Register for the Conference
+
+Registration payment methods are shown below:
+<div>
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
 </script>
@@ -12,8 +18,4 @@ published: true
   publishable-key="pk_live_51PCaoKF7KXu21vmIhntDFmQPn06ycluf5lSJC27yoILNLZd4tK6LfvnhOM3Q6MdPHJ63wbrY8vfp0MCFbI8w3EvP00hh6gdExP"
 >
 </stripe-buy-button>
-
-
-# Register for the Conference
-
-Registration payment methods are shown below:
+</div>
