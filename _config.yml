@@ -5,7 +5,7 @@ url                          : "https://llmworkshop.github.io/" # the base hostn
 url                          : 127.0.0.1
 
 blog:
-  title                      : LLM safety Workshop
+  title                      : Large Model Safety Workshop 2024
 
 # Layout configuration
   logo_path                  : "assets/img/llm-logo.jpg" # path to logo file
