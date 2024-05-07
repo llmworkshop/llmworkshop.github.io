@@ -42,7 +42,7 @@ Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s 
 
 ## Venue
 This workshop will be a part of [AsiaCCS’2024](https://asiaccs2024.sutd.edu.sg/), which will take place in [PARKROYAL on Beach Road Hotel](https://parkroyalonbeachroad.sg-singapore.com/).
-<center><img src="ACM-SIGSAC-230x230-1.png" href="https://asiaccs2024.sutd.edu.sg/"></center>
+<center><img src="https://llmworkshop.github.io/assets/img/peer2024/ACM-SIGSAC-230x230-1.png" href="https://asiaccs2024.sutd.edu.sg/"></center>
 
 ## Program (under construction)
 *8:30 – 9:15:* Talk 1
