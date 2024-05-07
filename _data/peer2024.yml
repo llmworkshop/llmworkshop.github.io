@@ -4,7 +4,7 @@ people:
     website: http://sunjun.site/
     university: Singapore Management University
     department: Professor At School of Information and Computing Systems
-    image: R:\llmworkshop.github.io\assets\img\jun-sun.jpg
+    image: jun-sun.jpg
     role: keynote
     description: ""
   apapafragou:
@@ -12,7 +12,7 @@ people:
     website: https://www.deloitte.com/cbc/en/about/people/profiles.gchng%2Be929dc32.html
     university: Executive Director in Deloitte
     department: co-chair of Singapore’s AI Technical Committee
-    image: R:\llmworkshop.github.io\assets\img\gx-gerry-kian-woon-chng.jpg
+    image: gx-gerry-kian-woon-chng.jpg
     role: keynote
     description: ""
   
