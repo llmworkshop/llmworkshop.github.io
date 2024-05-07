@@ -20,6 +20,19 @@ In the rapidly evolving landscape of artificial intelligence, the development an
 This engaging workshop will feature a series of expert talks on the complex landscape of large model safety. From understanding the technical intricacies of large model development to exploring the societal impacts of AI safety, attendees will gain insights into the multifaceted aspects of large model safety. Whether you’re a seasoned AI practitioner or new to the field, this workshop promises to offer valuable perspectives on fostering innovation while prioritizing safety, ethics, and accountability in the age of transformative AI technologies.
 
 ## Organization Committee
+{% for person in site.data.peer2024.people %}
+{% assign personinfo = person[1] %}
+{% if personinfo.role == "keynote" %}
+<center>
+<a href="{{ personinfo.website }}"><img class="people" alt="{{ personinfo.name }}" src="{{ page.images | relative_url }}{{ personinfo.image }}" srcset="{{ page.images | relative_url }}{{ personinfo.image }}" /></a>
+</center>  
+<center><b>{{ personinfo.name }}</b></center>
+<center><i>{{ personinfo.department }}</i></center>
+<center><i>{{ personinfo.university }}</i></center>
+<!-- {{ personinfo.description }} -->
+{% endif %}    
+{% endfor %}
+
 Jun SUN, Professor at School of Information and Computing Systems, Singapore Management University
 
 Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s AI Technical Committee)
@@ -29,7 +42,7 @@ Gerry Kian Woon Chng, Executive Director in Deloitte (co-chair of Singapore’s 
 
 ## Venue
 This workshop will be a part of [AsiaCCS’2024](https://asiaccs2024.sutd.edu.sg/), which will take place in [PARKROYAL on Beach Road Hotel](https://parkroyalonbeachroad.sg-singapore.com/).
-
+<center><img src="R:\llmworkshop.github.io\assets\img\ACM-SIGSAC-230x230-1.png" href="https://asiaccs2024.sutd.edu.sg/"></center>
 
 ## Program (under construction)
 *8:30 – 9:15:* Talk 1
