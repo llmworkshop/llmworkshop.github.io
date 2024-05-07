@@ -7,7 +7,7 @@ published: true
 
 # Register for the Conference
 
-Registration payment methods are shown below:
+Registration payment methods are shown below 1:
 <div>
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
