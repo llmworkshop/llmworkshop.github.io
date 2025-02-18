@@ -229,4 +229,21 @@
     })
   });
 
+  // update year dropdown when DOM is loaded
+  function updateYearDropdown() {
+    const currentYear = window.location.pathname.match(/\/(\d{4})\//)?.[1] || '2025';
+    const targetYear = currentYear === '2024' ? '2025' : '2024';
+    
+    document.querySelectorAll('.current-year').forEach(el => {
+        el.textContent = currentYear;
+    });
+
+    document.querySelectorAll('.target-year-link').forEach(el => {
+        el.textContent = targetYear;
+        el.href = `../${targetYear}/index.html`;
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', updateYearDropdown);
+
 })()
