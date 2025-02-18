@@ -187,38 +187,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Buy Tickets
---------------------------------------------------------------*/
-.buy-tickets {
-  color: #fff;
-  background: #f82249;
-  padding: 7px 22px;
-  margin: 0 0 0 15px;
-  border-radius: 50px;
-  border: 2px solid #f82249;
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  line-height: 1;
-  font-size: 13px;
-  white-space: nowrap;
-}
-
-.buy-tickets:hover {
-  background: none;
-  color: #fff;
-}
-
-.buy-tickets:focus {
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .buy-tickets {
-    margin: 0 15px 0 0;
-  }
-}
-
-/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
@@ -477,6 +445,41 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
+}
+
+/*--------------------------------------------------------------
+# registration button
+--------------------------------------------------------------*/
+.registration {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 50px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.registration:hover {
+  background: #bc1937;
+  border-color: #bc1937;
+  color: #fff; 
+}
+
+.registration:focus,
+.registration:focus:hover {
+  background: #fe899e;
+  border-color: #fe899e;
+}
+
+@media (max-width: 992px) {
+  .registration {
+    margin: 0 15px 0 15px;
+  }
 }
 
 /*--------------------------------------------------------------
