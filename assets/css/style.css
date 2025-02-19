@@ -492,7 +492,7 @@ html {
 #home {
   width: 100%;
   height: 100vh;
-  background: url(../img/singaporeguide.jpg) top center;
+  background: url(../img/pexels-palumalerba-2426546.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -506,7 +506,7 @@ html {
 
 #home:before {
   content: "";
-  background: rgba(6, 12, 34, 0.7);
+  background: rgba(6, 12, 34, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
