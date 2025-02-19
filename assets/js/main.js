@@ -145,6 +145,7 @@
         navbarToggle.classList.toggle('bi-x')
       }
       scrollto(this.hash)
+      this.blur()
     }
   }, true)
 
