@@ -766,7 +766,7 @@ html {
 }
 
 #organizers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: rgba(6, 12, 34, 0.65);
   position: absolute;
   left: 0;
   bottom: -40px;
@@ -855,6 +855,29 @@ html {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+#organizers .other-organizers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#organizers .other-organizers h3 {
+  min-height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+#organizers .other-organizers p {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
