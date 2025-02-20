@@ -532,6 +532,13 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px 0px;
+}
+
+.home-title, .home-introduction {
+  flex: 1;
+  max-height: 50vh;
+  overflow: auto;
 }
 
 @media (max-width: 991px) {
@@ -678,7 +685,7 @@ html {
 
 #home .about-info:before {
   content: "";
-  background: rgba(6, 12, 34, 0.7);
+  /* background: rgba(6, 12, 34, 0.7); */
   position: absolute;
   bottom: 0;
   top: 0;
