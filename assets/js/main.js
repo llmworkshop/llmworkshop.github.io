@@ -235,8 +235,7 @@
   // update year dropdown when DOM is loaded
   function updateYearDropdown() {
     const currentYear = window.location.pathname.match(/\/(\d{4})\//)?.[1] || '2025';
-    const tempAvailableYears = avaliableYears;
-    const targetYears = tempAvailableYears.filter(year => year !== currentYear);
+    const targetYears = avaliableYears.filter(year => year !== currentYear);
 
     document.querySelectorAll('.current-year').forEach(el => {
       el.textContent = currentYear;
