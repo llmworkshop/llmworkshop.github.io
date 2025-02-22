@@ -230,21 +230,33 @@
     })
   });
 
+  const avaliableYears = ['2024', '2025'];
+
   // update year dropdown when DOM is loaded
   function updateYearDropdown() {
     const currentYear = window.location.pathname.match(/\/(\d{4})\//)?.[1] || '2025';
-    const targetYear = currentYear === '2024' ? '2025' : '2024';
-    
+    const tempAvailableYears = avaliableYears;
+    const targetYears = tempAvailableYears.filter(year => year !== currentYear);
+
     document.querySelectorAll('.current-year').forEach(el => {
-        el.textContent = currentYear;
+      el.textContent = currentYear;
     });
 
-    document.querySelectorAll('.target-year-link').forEach(el => {
-        el.textContent = targetYear;
-        el.href = `../${targetYear}/index.html`;
-    });
+    const dropdownList = document.querySelector('.dropdown ul');
+    if (dropdownList) {
+      dropdownList.innerHTML = '';
+      targetYears.forEach(year => {
+        const li = document.createElement('li');
+        li.classList.add('year-dropdown-item');
+        const a = document.createElement('a');
+        a.classList.add('target-year-link');
+        a.textContent = year;
+        a.href = `../${year}/index.html`;
+        li.appendChild(a);
+        dropdownList.appendChild(li);
+      });
+    }
   }
-
   document.addEventListener('DOMContentLoaded', updateYearDropdown);
 
 })()
