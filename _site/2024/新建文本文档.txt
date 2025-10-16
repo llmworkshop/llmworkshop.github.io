@@ -1,0 +1,26 @@
+8:45 - 8:50: Opening Address
+
+
+
+8:50 - 9:30: “Understanding Security Risks of Large Language Models” by Prateek Mittal from University of Princeton 
+9:30 - 10:10: “Risk Assessment, Safety Alignment, and Guardrails for Generative Models” by Bo Li from University of Chicago and UIUC
+
+10:10 - 10:40: Coffee Break
+
+10:40 - 11:20: “Reliable and Responsible Data Use: Retrieval-based Models and Synthetic Data” by Pang Wei Koh from University of Washington
+11:20 - 12:00: “Secure Content Moderation for Generative AI” by Neil Gong from Duke University
+
+12:00 - 1:30 Lunch
+
+1:30 - 2:10: “Distributed Language Models: Isolating Data Risks” by Sewon Min from UC Berkeley
+2:10 - 2:50: “Robustifying Large Models against Malicious Fine-tuning Attacks” by Ting Wang from Stony Brook University
+
+2:50 - 3:30: “Safety and Trustworthiness Challenges for LLMs” by Mohan Kankanhalli from National University of Singapore 
+
+3:30 - 4:00: Coffee Break
+
+4:00 - 4:30: “Adopt AI. Do Not Adopt Its Risk.” by Martin Saerbeck from TÜV SÜD
+4:30 - 5:00: “From Research to Implementation: Testing and Evaluating Large Language Models” by Seok Min Lim from IMDA
+5:00 - 5:30: “TBD” by Wan Ding Yao from GovTech
+
+18:00 - 20:00: Dinner (invited attendees only)
