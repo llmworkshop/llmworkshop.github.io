@@ -223,7 +223,7 @@
     })
   });
 
-  const availableYears = ['2024', '2025', '2026'];
+  const availableYears = ['2026', '2025', '2024'];
 
   // update year dropdown when DOM is loaded
   function updateYearDropdown() {
