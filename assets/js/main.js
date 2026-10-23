@@ -223,11 +223,11 @@
     })
   });
 
-  const availableYears = ['2026', '2025', '2024'];
+  const availableYears = ['2025', '2024'];
 
   // update year dropdown when DOM is loaded
   function updateYearDropdown() {
-    const currentYear = window.location.pathname.match(/\/(\d{4})\//)?.[1] || '2026';
+    const currentYear = window.location.pathname.match(/\/(\d{4})\//)?.[1] || '2025';
     const targetYears = availableYears.filter(year => year !== currentYear);
 
     document.querySelectorAll('.current-year').forEach(el => {
